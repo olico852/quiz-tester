@@ -14,7 +14,7 @@ It should return an integer that is the number of questions in a game
 It should return an integer that is the zero-based index of the current question in the quiz
 
 ### correctAnswer()
-It should return an integer that is the zero-based index the correct answer for the currrent question
+It should return an integer that is the zero-based index the correct answer for the current question
 
 ### numberOfAnswers()
 It should return an integer that is the number of choices for the current question

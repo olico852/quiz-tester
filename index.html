@@ -3,19 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <title>Test</title>
-    <script src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
-    <script src="./quiz.js"></script>
-    <script src="./quiz-tester.js"></script>
+    <link rel="stylesheet" href="./bootstrap-3.3.7-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="mystyle.css">
+    <!-- <script src="./quiz.js"></script> -->
+    <!-- <script src="./quiz-tester.js"></script> -->
 </head>
 <body>
-    <h3></h3>
-    <h3></h3>
-    <h1></h1>
-    <div>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
+
+  <div id="overlay">
+    <div>Click to start trivia quiz!</div>
+  </div>
+
+  <div class='col-md-12'>
+       <h1 id="title">Trivia Quiz!</h1>
     </div>
+
+<div class="col-md-7 col-md-offset-1" class="container-fluid">
+
+  <div class='question' class="row well" id="question0">
+
+    <div class="row">
+      <h2>Question 1</h2>
+      <h3>Which of the following is not a disease that affect the liver? </h3>
+    </div>
+
+    <div class="row">
+        <button id='0' class="btn">Cirrhosis</button>
+        <button id='1' class="btn">Hepatitis</button>
+        <button id='2' class="btn">Cancer</button>
+        <button id='3' class="btn">Phalanges</button>
+    </div>
+
+  </div>
+
+    <div class='question' class="row well" id="question1">
+      <div class="row">
+        <h2>Question 2</h2>
+        <h3>Worst thing to drink at a party?</h3>
+      </div>
+        <div class="row">
+          <button id='0' class="btn">Absinthe</button>
+          <button id='1' class="btn">Bacardi 151</button>
+          <button id='2' class="btn">Water</button>
+          <button id='3' class="btn">Turpentine</button>
+        </div>
+      </div>
+
+      <div class='question' class="row well" id="question2">
+        <div class="row">
+          <h2>Question 3</h2>
+          <h3>Which of the following is not a shade of purple?</h3>
+        </div>
+          <div class="row">
+            <button id='0' class="btn">Lavender</button>
+            <button id='1' class="btn">Lilac</button>
+            <button id='2' class="btn">Turquoise</button>
+            <button id='3' class="btn">Mauve</button>
+          </div>
+        </div>
+
+        <div class='question' class="row well" id="question3">
+          <div class="row">
+            <h2>Question 4</h2>
+            <h3>Which of the following is not a traditional Christmas treat?</h3>
+          </div>
+            <div class="row">
+              <button id='0' class="btn">Turkey</button>
+              <button id='1' class="btn">Pont Neuf</button>
+              <button id='2' class="btn">Fruitcake</button>
+              <button id='3' class="btn">Stollen</button>
+            </div>
+          </div>
+  </div>
+
+  <div class="col-md-3" class="container-fluid">
+    <div id="scorePanel">
+      <div id="player1">Player 1: 0</div>
+      <div id="player2">Player 2: 0</div>
+    </div>
+  </div>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+<script src="./myQuiz-freedom.js"></script>
 </body>
 </html>
